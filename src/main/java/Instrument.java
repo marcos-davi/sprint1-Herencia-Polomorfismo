@@ -3,7 +3,6 @@ public abstract class Instrument {
     private int price;
 
     //method play
-
     public abstract void play();
 
         }
