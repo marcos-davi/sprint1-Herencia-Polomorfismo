@@ -13,7 +13,7 @@ public class Main {
         // Cridant el mètode accelerate() des d’instància car1
         car1.accelerate();
 
-        
+
 
 
 
