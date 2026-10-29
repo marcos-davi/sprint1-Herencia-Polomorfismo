@@ -20,23 +20,23 @@ Tots aquests instruments tenen dues característiques en comú: un nom i un preu
 
 *Fes un commit explicatiu per a cada punt, seguint l’estàndard de Conventional Commits.*
 
-1. Crea una classe abstracta anomenada Instrument, amb:
+1. Crea una classe abstracta anomenada exercise1.Instrument, amb:
 Dos atributs: name i price
 Un mètode abstracte anomenat play()
 
-2. Crea tres subclasses que heretin de Instrument:
-    - WindInstrument
-    - StringInstrument
-    - PercussionInstrument
+2. Crea tres subclasses que heretin de exercise1.Instrument:
+    - exercise1.WindInstrument
+    - exercise1.StringInstrument
+    - exercise1.PercussionInstrument
 
 3. A cada subclasse, implementa el mètode play() perquè mostri per consola un missatge específic:
-    - "Està sonant un instrument de vent" per a WindInstrument
+    - "Està sonant un instrument de vent" per a exercise1.WindInstrument
 
-    - "Està sonant un instrument de corda" per a StringInstrument
+    - "Està sonant un instrument de corda" per a exercise1.StringInstrument
 
-    - "Està sonant un instrument de percussió" per a PercussionInstrument
+    - "Està sonant un instrument de percussió" per a exercise1.PercussionInstrument
 
-4. Afegeix una classe Main amb un mètode main() on:
+4. Afegeix una classe exercise1.Main amb un mètode main() on:
     - Es creï un objecte de cada tipus d’instrument
 
     - Es cridi el mètode play() de cadascun per veure el comportament polimòrfic

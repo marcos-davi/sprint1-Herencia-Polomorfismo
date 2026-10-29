@@ -1,3 +1,5 @@
+package exercise1;
+
 public class PercussionInstrument extends Instrument{
     String name = "Timbales";
     int price = 700;

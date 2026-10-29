@@ -1,3 +1,5 @@
+package exercise1;
+
 public class Main {
     static void main(String[] args) {
         //Create  objects from each subclasses
