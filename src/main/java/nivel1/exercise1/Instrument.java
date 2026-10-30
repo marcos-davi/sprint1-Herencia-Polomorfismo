@@ -1,4 +1,4 @@
-package exercise1;
+package nivel1.exercise1;
 
 public abstract class Instrument {
     private String name;

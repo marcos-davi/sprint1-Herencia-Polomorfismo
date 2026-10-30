@@ -1,4 +1,4 @@
-package exercise2;
+package nivel1.exercise2;
 
 public class Main {
     static void main(String[] args) {

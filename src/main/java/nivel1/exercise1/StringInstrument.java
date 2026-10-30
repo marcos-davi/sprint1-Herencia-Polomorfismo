@@ -1,4 +1,4 @@
-package exercise1;
+package nivel1.exercise1;
 
 public class StringInstrument extends Instrument {
     String name = "Viola";

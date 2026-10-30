@@ -1,4 +1,4 @@
-package exercise1;
+package nivel1.exercise1;
 
 public class WindInstrument extends Instrument {
     String name = "Saxophone";
