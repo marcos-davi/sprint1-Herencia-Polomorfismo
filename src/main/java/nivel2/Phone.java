@@ -5,6 +5,6 @@ public class Phone {
     String model;
 
     public void call(int number){
-        System.out.println("S'està trucant al número " + number);
+        System.out.println("It's calling to: " + number);
     }
 }
