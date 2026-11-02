@@ -1,33 +1,49 @@
 package nivel3;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Redactor {
-   private String name;
+   private String nom;
    private final String dni;
-   private static int salary = 1500;
+   private static double souComu = 1500;
+   private List<Noticia> noticies;
 
-   // constructors
-   public Redactor(String name, String dni, int salary) {
-       this.name = name;
+   // constructor
+   public Redactor(String name, String dni) {
+       this.nom = name;
        this.dni = dni;
-       Redactor.salary = salary;
-   }
-   // getters and setters
+       this.noticies = new ArrayList<>();
 
-   public String getName() {
-       return name;
    }
+   // Getters and Setters
+
+   public String getNom() {
+       return nom;
+   }
+
+   public void setNom(String nom) {
+       this.nom = nom;
+    }
+
    public String getDni() {
        return dni;
    }
-   public int getSalary() {
-       return salary;
-   }
-   public void setName(String name) {
-       this.name = name;
+
+   public double getSouComu() {
+
+       return souComu;
    }
 
-    public void setSalary(int salary) {
-        Redactor.salary = salary;
+    public void setSouComu(double sou) {
+       Redactor.souComu = sou;
     }
 
+    public List<Noticia> getNoticies() {
+        return noticies;
+    }
+
+    public void setNoticies(List<Noticia> noticies) {
+        this.noticies = noticies;
+    }
 }
