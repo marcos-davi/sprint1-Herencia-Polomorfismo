@@ -36,14 +36,15 @@ public class Redactor {
    }
 
     public void setSouComu(double sou) {
+
        Redactor.souComu = sou;
     }
 
     public List<Noticia> getNoticies() {
-        return noticies;
+       return noticies;
     }
 
-    public void setNoticies(List<Noticia> noticies) {
-        this.noticies = noticies;
+    public void afegirNoticia(Noticia noticia) {
+        this.noticies.add(noticia);
     }
 }
